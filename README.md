@@ -16,7 +16,7 @@
 | **2023.12.11** |프로그래머스|72410|[신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|구현|[풀이](https://github.com/EJueon/2024_BrC_algorithm_study/blob/JE/72410_2.py)|        | [풀이](https://github.com/EJueon/2024_BrC_algorithm_study/blob/SH/2023.12.11_%EC%8B%A0%EA%B7%9C%EC%95%84%EC%9D%B4%EB%94%94%EC%B6%94%EC%B2%9C)     |
 | **2023.12.11**|백준|14890|[경사로](https://www.acmicpc.net/problem/14890)|구현|        |        |        |
 | **2023.12.12**|프로그래머스|172928|[공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|구현|        |        |        |
-| ****           |          |             |           |                 |        |        |        |
+| **2023.12.12**|백준|2579|[계단 오르기](https://www.acmicpc.net/problem/2579)|DP|        |        |        |
 | ****           |          |             |           |                 |        |        |        |
 | ****           |          |             |           |                 |        |        |        |
 | ****           |          |             |           |                 |        |        |        |
