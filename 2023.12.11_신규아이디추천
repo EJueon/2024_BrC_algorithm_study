@@ -1,0 +1,33 @@
+import string
+def solution(new_id):
+    answer = ''
+    #1
+    new_id = new_id.lower() # 소문자로
+    #2
+    symbols = string.punctuation.replace('-', '').replace('_', '').replace('.','')
+    #symbols = !"#$%&'()*+,/:;<=>?@[\]^`{|}~
+    for symbol in symbols: new_id = new_id.replace(symbol,"")
+    #3  
+    flag = 0
+    while flag == 0 :
+        if '..' in new_id: new_id = new_id.replace('..','.')
+        else : flag = 1
+    #4
+    if new_id[0] == '.': new_id = new_id.replace('.','',1) # count지정
+    # if new_id[-1] == '.': new_id = new_id[:len(new_id)-2]
+    #5
+    if new_id == '': new_id = 'a'
+    #6
+    if len(new_id) > 15: 
+        new_id = new_id[0:15]
+    while new_id[-1] == '.':
+        new_id = new_id[0:len(new_id)-1]
+
+    #7
+    if len(new_id) < 3:
+        rep_key = new_id[-1]
+        while len(new_id) != 3:
+            new_id = new_id + rep_key
+    
+    print(new_id)
+    return new_id
